@@ -73,7 +73,7 @@ while (true)
         var title = Console.ReadLine();
         if (title == "")
         {
-            Console.WriteLine("Ошибка ввода. Задача с таким заголовком не найдена.");
+            Console.WriteLine("Ошибка ввода. Проверьте входные данные и повторите запрос.");
             continue;
         }
 
@@ -98,7 +98,7 @@ while (true)
         var title = Console.ReadLine();
         if (title == "")
         {
-            Console.WriteLine("Ошибка ввода. Задача с таким заголовком не найдена.");
+            Console.WriteLine("Ошибка ввода. Проверьте входные данные и повторите запрос.");
             continue;
         }
         
